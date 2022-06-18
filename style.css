@@ -1,0 +1,32 @@
+.font{
+    font-family: 'Raleway', sans-serif;
+}
+.heading{
+width:100%;
+margin:0;
+font-size:23px;
+}
+#ui{
+    border-radius:25px;
+    background-color:rgba(230, 230, 225, 0.803);
+    width:40%;
+}
+.footer{
+    bottom:0;
+    width: 100%;
+    position:fixed;
+    line-height:3;
+    background-color: silver;
+    font-size:15px;
+    text-align:center;
+    color:white;
+}
+canvas{
+    border-radius:20px;
+    border-width: 5px;
+    border-style: double;
+    
+}
+body{
+    background-size: cover;
+}
