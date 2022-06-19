@@ -15,12 +15,12 @@ function draw(){
         cos.detect(video,gotResults);
          for(i=0; i<=object.length;i++){
             document.getElementById("status").innerHTML="Status:Objects Detected";
-            document.getElementById("no").innerHTML="Number of Objects:"+objects.length;
+            document.getElementById("no").innerHTML="Number of Objects:"+object.length;
             
             fill("red");
             stroke("red");
             percentage=floor(object[i].confidence*100);
-            text(objects[i].label + " "+percentage+"%",object,objects[i].x+15,objects[i].y+15);
+            text(object[i].label + " "+percentage+"%",object,object[i].x+15,object[i].y+15);
             nofill();
             rect(object[i].x,object[i].y,object[i].width,object[i].height);
          }
